@@ -1,0 +1,23 @@
+class FieldInhabitant:
+    def __init__(self, G, R, V):
+        self._veggie = G
+        self._rabbit = R
+        self._captain = V
+
+    def getveggie(self):
+        return self._veggie
+
+    def getrabbit(self):
+        return self._rabbit
+
+    def getcaptain(self):
+        return self._captain
+
+    def setveggie(self,G):
+        self._veggie = G
+
+    def setrabbit(self,R):
+        self._rabbit = R
+
+    def setcaptain(self,V):
+        self._captain = V
